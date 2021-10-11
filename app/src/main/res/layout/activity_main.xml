@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="@color/light_gray">
+
+    <TextView
+        android:id="@+id/read"
+        android:layout_width="match_parent"
+        android:layout_height="80sp"
+        android:textSize="50sp"
+        android:gravity="end"
+        android:paddingEnd="5dp"
+        android:ellipsize="start"
+        android:singleLine="true"
+        android:layout_marginTop="120sp"
+        android:textColor="@color/white"/>
+    <TextView
+        android:id="@+id/write"
+        android:layout_width="match_parent"
+        android:layout_height="80sp"
+        android:textSize="70sp"
+        android:gravity="end"
+        android:ellipsize="end"
+        android:singleLine="true"
+        android:textColor="@color/white"
+        android:text=""/>
+    <LinearLayout
+        android:textColor="@color/dark_gray"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:layout_marginTop="70sp">
+
+        <TextView
+            android:id="@+id/but7"
+            style="@style/button"
+            android:text="7"
+            android:textColor="@color/white"/>
+
+        <TextView
+            android:id="@+id/but8"
+            style="@style/button"
+            android:textColor="@color/white"
+            android:text="8"/>
+
+        <TextView
+            android:id="@+id/but9"
+            style="@style/button"
+            android:textColor="@color/white"
+            android:text="9"/>
+
+        <TextView
+            android:id="@+id/butDiv"
+            style="@style/button"
+            android:textColor="@color/blue"
+            android:text="/"/>
+
+        <TextView
+            android:id="@+id/butClean"
+            style="@style/button"
+            android:textColor="@color/blue"
+            android:text="C"/>
+    </LinearLayout>
+    <LinearLayout
+        android:textColor="@color/dark_gray"
+        android:layout_width="match_parent"
+        android:layout_height="90dp">
+
+        <TextView
+            android:id="@+id/but4"
+            style="@style/button"
+            android:textColor="@color/white"
+            android:text="4"/>
+
+        <TextView
+            android:id="@+id/but5"
+            style="@style/button"
+            android:textColor="@color/white"
+            android:text="5"/>
+
+        <TextView
+            android:id="@+id/but6"
+            style="@style/button"
+            android:textColor="@color/white"
+            android:text="6"/>
+
+        <TextView
+            android:id="@+id/butTimes"
+            style="@style/button"
+            android:textColor="@color/blue"
+            android:text="x"/>
+
+        <TextView
+            style="@style/button"
+            android:id="@+id/butOp"
+            android:textColor="@color/blue"
+            android:text="("/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:textColor="@color/dark_gray"
+        android:layout_width="match_parent"
+        android:layout_height="90dp">
+        <TextView
+            android:id="@+id/but1"
+            style="@style/button"
+            android:textColor="@color/white"
+            android:text="1"/>
+
+        <TextView
+            android:id="@+id/but2"
+            style="@style/button"
+            android:textColor="@color/white"
+            android:text="2"/>
+
+        <TextView
+            android:id="@+id/but3"
+            style="@style/button"
+            android:textColor="@color/white"
+            android:text="3"/>
+
+        <TextView
+            android:id="@+id/butMinus"
+            style="@style/button"
+            android:textColor="@color/blue"
+            android:text="-"/>
+
+        <TextView
+            style="@style/button"
+            android:id="@+id/butCl"
+            android:textColor="@color/blue"
+            android:text=")"/>
+    </LinearLayout>
+    <LinearLayout
+        android:textColor="@color/dark_gray"
+        android:layout_width="match_parent"
+        android:layout_height="90dp">
+        <TextView
+            android:id="@+id/but0"
+            style="@style/button"
+            android:textColor="@color/white"
+            android:text="0"/>
+
+        <TextView
+            android:id="@+id/butDot"
+            style="@style/button"
+            android:textColor="@color/white"
+            android:text="."/>
+
+        <TextView
+            style="@style/button"/>
+
+        <TextView
+            android:id="@+id/butPlus"
+            style="@style/button"
+            android:textColor="@color/blue"
+            android:text="+"/>
+
+        <TextView
+            android:id="@+id/butCount"
+            style="@style/button"
+            android:textColor="@color/blue"
+            android:text="="/>
+    </LinearLayout>
+
+
+</LinearLayout>
